@@ -1,0 +1,24 @@
+
+import os
+import sys
+
+if(0):
+	if os.path.isfile(sys.argv[1]):
+		f1 = open(sys.argv[1],"r")
+		sys.stdout.write(f1.read())
+	else:
+		print "Sorrrrrrrrrrrrrrrry File Not exists"
+
+if(1):
+	if len(sys.argv) != 3:
+		print "Invalid Argument"
+	else:
+		if os.path.isfile(sys.argv[1]):
+			f1 = open(sys.argv[1],"r")
+			f2 = open(sys.argv[2],"w")
+			f2.write(f1.read())
+		else:
+			print "Sorrrrrrrrrrrrrrrry File Not exists"
+	
+
+

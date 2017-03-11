@@ -1,0 +1,16 @@
+
+
+
+try:
+        print 10/0
+        raise ValueError("Pritam Krishna Mali")
+except Exception as detail:
+        print detail
+        import  sys
+        sys.exit()
+else:
+        print "Else Block"
+
+
+finally:
+        print "pritam"
